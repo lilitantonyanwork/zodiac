@@ -1,0 +1,986 @@
+@media screen and (max-width: 1200px){
+    header, .banner, .prognoz, .footer-top{
+        max-width: 1024px;
+    }
+    .navbar-nav{
+        gap: 24px;
+    }
+    body{
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1024px){
+    .prognoz img{
+        width: 210px;
+    }
+    .zodiac-content .nav-pills .nav-link{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .zodiac-content .nav{
+        height: 53px;
+        border-radius: 10px;
+    }
+    .nav-pills .nav-link.active, .nav-pills .show>.nav-link,
+    .nav-pills .nav-item{
+        border-radius: 8px;
+    }
+    header, .banner, .prognoz, .footer-top{
+        max-width: 784px;
+    }
+    .nav-link{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    header .btn-primary, footer .btn-primary{
+        height: 38px;
+        padding: 12px 16px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .banner{
+        margin-top: 60px;
+        background: #EEEEEE;
+        height: 480px;
+    }
+    .banner .section-title{
+        font-size: 60px;
+        line-height: 72px;
+        margin-bottom: 16px;
+    }
+    .banner p{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 23px;
+    }
+    .btn-primary, .btn-outline-primary{
+        height: 58px;
+        padding: 18px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .prognoz{
+        padding-top: 42px;
+    }
+    .section-title{
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 16px;
+    }
+    .prognoz p{
+        font-size: 18px;
+        line-height: 21px;
+        max-width: 650px;
+    }
+    .prognoz .card{
+        width: calc(100%/3 - 8px);
+        padding: 29px 11px;
+        min-height: 306px;
+    }
+    .prognoz .card-text{
+        min-height: 95px;
+    }
+    .choose-date-form .btn-select{
+        height: 53px;
+    }
+    .input-group input{
+        height: 53px;
+    }
+    .input-group{
+        gap: 16px;
+    }
+    .choose-date-form .input-group:last-child{
+        margin-top: 36px;
+    }
+    .choose-date{
+        margin-top: 42px;
+        margin-bottom: 119px;
+    }
+    footer{
+        padding-top: 48px;
+    }
+    footer .navbar-brand{
+        padding-top: 16px;
+    }
+    .footer-menu ul{
+        gap: 24px;
+    }
+    .footer-button{
+        padding-top: 11px;
+    }
+    .footer-top .container{
+        align-items: flex-start!important;
+    }
+    footer .btn-select, footer .btn-select:hover{
+        height: 38px;
+        font-size: 12px;
+        line-height: 14px;
+        width: 127px;
+        padding: 12px;
+    }
+    footer .dropdown-toggle::after{
+        width: 14px;
+        height: 14px;
+        background-size: 100%;
+        background-position: center;
+    }
+    footer .dropdown-menu.show{
+        width: 127px;
+        padding: 12px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer .dropdown-item{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer .dropdown-menu{
+        width: 127px;
+        padding: 12px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .footer-top{
+        margin-bottom: 19px;
+    }
+    .footer-bottom{
+        margin-bottom: 60px;
+    }
+    footer{
+        padding-bottom: 60px;
+    }
+    .btn-gray{
+        height: 53px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 18px;
+    }
+    .prognoz .action-btns{
+        margin-top: 42px;
+    }
+    .subscribe .section-title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 24px;
+        max-width: 784px;
+    }
+    .subscribe p{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 42px;
+    }
+    .btn-back{
+        font-size: 24px;
+        line-height: 28px;
+        height: 84px;
+    }
+    .subscribe{
+        min-height: calc(100vh - 388px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .subscribe-input{
+        height: 68px;
+        font-size: 24px;
+        line-height: 28px;
+        padding: 19px 18px;
+    }
+    .subscribe-form .btn-primary{
+        height: 68px;
+        padding: 19px 24px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .not-found{
+        min-height: calc(100vh - 295px);
+    }
+    .not-found .section-title{
+        font-size: 60px;
+        line-height: 72px;
+        margin-bottom: 42px;
+    }
+    .not-found p{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 42px;
+        max-width: 785px;
+    }
+
+    .post-banner{
+        max-width: 784px;
+        height: 448px;
+        padding: 36px;
+        margin-bottom: 42px;
+    }
+    .post-tag{
+        height: 43px;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 12px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .post .section-title{
+        max-width: 687px;
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 36px;
+    }
+    .post p{
+        max-width: 785px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .post h2{
+        margin-top: 24px;
+        margin-bottom: 36px;
+        font-size: 24px;
+        line-height: 32px;
+        max-width: 773px;
+    }
+    .post ul{
+        max-width: 785px;
+        margin-bottom: 36px;
+    }
+    .post li{
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    .post .mb-60{
+        margin-bottom: 36px;
+    }
+    hr{
+        max-width: 785px;
+    }
+    .advice{
+        max-width: 784px;
+        padding: 18px;
+        font-size: 18px;
+        line-height: 24px;
+        border-radius: 8px;
+        margin-bottom: 35px;
+    }
+    .post h4{
+        margin-bottom: 24px;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .post-banner:last-child{
+        margin-bottom: 0;
+    }
+    .post{
+        padding-bottom: 120px;
+    }
+    .search-form input{
+        height: 68px;
+        padding: 19px 18px;
+    }
+    .search-input:before{
+        top: 16px;
+        right: 18px;
+    }
+    .btn-search{
+        height: 68px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .search-input{
+        max-width: 561px;
+    }
+    .search-form{
+        margin-top: 36px;
+        margin-bottom: 16px;
+    }
+    .btn-tab{
+        height: 43px;
+        border-radius: 8px;
+        font-size: 14px;
+        line-height: 19px;
+        padding: 12px 16px;
+    }
+    .search-tabs{
+        gap: 12px;
+        margin-bottom: 42px;
+    }
+    .blog-post{
+        max-width: 784px;
+        margin: 0 auto;
+        height: 448px;
+        padding: 36px;
+    }
+    .blog-post-title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 16px;
+    }
+    .blog-text{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .blog-list{
+        gap: 36px;
+    }
+    .numerology .section-title{
+        font-size: 36px;
+        line-height: 43px;
+        max-width: 761px    ;
+    }
+    .numerology-form .input-name{
+        height: 61px;
+        padding: 16px 24px;
+    }
+    .numerology-form .input-group input{
+        height: 61px;
+        padding: 16px 24px;
+    }
+    .numerology-form .dropdown-toggle{
+        height: 61px;
+    }
+    .numerology-form .dropdown-menu.show{
+        width: 195px;
+        top: 40px!important;
+    }
+    .numerology-form .btn-primary{
+        margin-top: 36px;
+        margin-bottom: 42px;
+        height: 77px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .numerology hr{
+        max-width: 650px;
+    }
+    .numerology .section-title{
+        max-width: 650px!important;
+    }
+    .mt-60{
+        margin-top: 42px;
+    }
+    .numerology h2{
+        font-size: 28px;
+        line-height: 33px;
+        margin-bottom: 21px;
+    }
+    .numerology .numerology-text{
+        max-width: 650px;
+        margin-bottom: 18px;
+    }
+    .numerology-info .section-title{
+        max-width: 761px!important;
+        margin-bottom: 24px;
+    }
+    .numerology .accordion-button{
+        padding-left: 20px;
+        font-size: 28px;
+        line-height: 33px;
+        text-align: center;
+        justify-content: center;
+    }
+    .numerology .accordion-header{
+        margin-bottom: 20px;
+    }
+    .accordion{
+        max-width: 650px;
+    }
+    .numerology h4{
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 12px;
+    }
+    .accordion-body p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .accordion-body{
+        padding-bottom: 18px;
+    }
+    .accordion-item{
+        margin-bottom: 24px;
+    }
+    .accordion-button::after{
+        position: absolute;
+        right: 0;
+    }
+    .numerology .subscribe-form{
+        display: none;
+    }
+    .subscribe-title{
+        display: none;
+    }
+}
+@media screen and (max-width: 990px) {
+    header .btn-primary{
+        display: none;
+    }
+    .navbar-toggler-icon{
+        background: url('../images/menu.svg') no-repeat center center   ;
+
+    }
+    .navbar-toggler{
+        border: none;
+        padding: 0;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-nav{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    header, .banner, .prognoz, .footer-top{
+       max-width: 600px;
+    }
+    .banner .section-title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 12px;
+    }
+    .banner p{
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 400px;
+        margin-bottom: 24px;
+    }
+    .banner{
+        height: 598px;
+    }
+    .action-btns{
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+    .btn-primary, .btn-outline-primary{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 16px;
+    }
+    .btn-outline-primary{
+        width: 177px;
+        white-space: nowrap;
+    }
+    .banner{
+        margin-top: 42px;
+    }
+    .prognoz .card{
+        width: calc(100%/2 - 12px);
+    }
+    .footer-menu ul{
+        flex-direction: column;
+        gap: 12px;
+    }
+    footer .navbar-brand, .footer-button {
+        padding-top: 0;
+    }
+    .footer-top{
+        margin-bottom: 36px;
+    }
+    .footer-bottom {
+        margin-bottom: 42px;
+    }
+}
+@media screen and (max-width: 768px){
+    .section-title{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .prognoz p{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 24px;
+    }
+    .choose-date-form .btn-select {
+        height: 38px;
+        padding: 12px;
+        font-size: 12px;
+        line-height: 14px;
+        width: 113px;
+    }
+    .choose-date-form .dropdown-menu{
+        width: 113px;
+        padding: 12px;
+        min-width: 113px;
+        top: 30px!important;
+    }
+    .dropdown-toggle::after{
+        width: 12px;
+        height: 12px;
+        background-size: 100%;
+    }
+    .dropdown-item{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .input-group input {
+        height: 38px;
+        width: 72px;
+        padding: 12px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .choose-date-form{
+        margin-top: 24px;
+    }
+    .btn-primary, .btn-outline-primary{
+        height: 49px;
+    }
+    .choose-date-form .input-group:last-child{
+        margin-top: 24px;
+    }
+    .choose-date{
+        margin-bottom: 60px;
+    }
+    .zodiac-content .nav{
+        height: 37px;
+        border-radius: 6px;
+        margin-bottom: 24px!important;
+    }
+    .zodiac-content .nav-pills .nav-link{
+        font-size: 14px;
+        line-height: 16px;
+        padding: 9px 12px!important;
+        border-radius: 4px;
+    }
+    .prognoz .action-btns {
+        margin-top: 36px;
+    }
+    .btn-gray{
+        padding: 10px 12px;
+        font-size: 10px;
+        line-height: 12px;
+        height: 32px;
+        gap: 6px;
+        min-width: 127px;
+        width: auto;
+    }
+    .btn-gray svg   {
+        width: 10px;
+
+    }
+
+    .prognoz .action-btns{
+        flex-direction: row;
+    }
+    .subscribe .section-title{
+        font-size: 28px;
+        line-height: 33px;
+    }
+    .subscribe .btn-outline-primary{
+        width: 196px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .subscribe-form{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .subscribe-input{
+        height: 48px;
+        padding: 17px 16px;
+        border-radius: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .subscribe-form .btn-primary{
+        height: 38px;
+        border-radius: 8px;
+        padding: 12px 16px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .not-found .section-title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 24px;
+    }
+    .not-found p{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 24px;
+    }
+    .not-found .btn-back{
+        height: 48px;
+        padding: 17px 16px;
+        width: 196px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .post{
+        padding-top: 46px;
+    }
+    .post-banner{
+        max-width: 600px;
+    }
+    .post .section-title{
+        max-width: 600px;
+    }
+    .post p,  .post h2, .post h4, .post ul, .advice, hr{
+        max-width: 600px;
+
+    }
+
+    .search-form input{
+        height: 48px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 17px 12px;
+        border-radius: 8px;
+    }
+    .btn-search{
+        display: none;
+    }
+    .search-input:before{
+        top: 12px;
+        right: 12px;
+        width: 24px;
+        height: 24px;
+        background-size: 100%;
+
+    }
+    .btn-tab{
+        height: 39px;
+        padding: 8px 12px;
+        font-size: 10px;
+        line-height: 13px;
+        width: auto;
+    }
+    .search-tabs{
+        margin-bottom: 36px;
+        gap: 6px;
+    }
+    .numerology-form .dropdown-toggle{
+        font-size: 14px;
+        line-height: 16px;
+        width: 148px;
+        height: 48px;
+    }
+
+    .numerology-form .input-group input{
+        height: 48px;
+        width: 94px;
+    }
+    .numerology-form .input-group{
+        gap: 6px;
+    }
+    .numerology-form .dropdown-menu.show {
+        width: 148px;
+        min-width: unset;
+    }
+    .numerology-form .input-group .input-name{
+        width: 348px;
+        margin-bottom: 12px;
+    }
+    .numerology-form .btn-primary{
+        margin-top: 24px;
+        margin-bottom: 36px;
+        height: 54px;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 16px;
+    }
+    .numerology h2{
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 12px;
+    }
+    .numerology h2 svg{
+        width: 18px;
+    }
+    .numerology .numerology-text{
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 12px;
+    }
+    .numerology hr.numerology-line{
+        margin-bottom: 16px;
+    }
+    .numerology{
+        padding-bottom: 60px;
+        padding-top: 41px;
+    }
+    .numerology p{
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+    .numerology .section-title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 24px;
+    }
+    .mt-60{
+        margin-top: 24px;
+    }
+    .numerology .numerology-info-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 24px;
+        margin-top: 18px;
+    }
+    .numerology .accordion-button{
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 12px;
+    }
+    .numerology .accordion-header{
+        margin-bottom: 0;
+    }
+    .numerology h4{
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 6px;
+    }
+    .numerology .accordion p{
+        font-size: 10px;
+        line-height: 13px;
+        margin-bottom: 0;
+    }
+    .accordion-body{
+        padding-bottom: 12px;
+    }
+    .accordion-item{
+        margin-bottom: 16px;
+    }
+    .accordion{
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 600px){
+    header{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .banner {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .prognoz{
+        padding-left: 40px;
+        padding-right: 40px;
+
+    }
+    .prognoz .card{
+        width: calc(100%/2 - 6px);
+    }
+    .zodiac-list{
+        gap: 6px;
+    }
+    footer{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .prognoz p{
+        max-width: 300px;
+        text-align: justify;
+    }
+    .prognoz{
+        margin-bottom: 60px;
+    }
+    .prognoz img {
+        width: 148px;
+        margin-bottom: 24px;
+    }
+    .prognoz .action-btns{
+        padding: 0;
+    }
+    .subscribe p{
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0 auto 24px;
+        max-width: 348px;
+
+    }
+    .subscribe .section-title{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 16px;
+        max-width: 348px;
+    }
+    .subscribe{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .subscribe .col-12{
+        padding: 0;
+    }
+    .subscribe-form{
+        margin-top: 24px;
+    }
+    .not-found p{
+        max-width: 348px;
+    }
+    .post{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 60px;
+        padding-top: 46px;
+
+    }
+    .post .section-title{
+        font-size: 24px;
+        line-height: 28px;
+        max-width: 348px;
+        margin-bottom: 24px;
+    }
+    .post p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .post h2{
+        font-size: 16px;
+        line-height: 21px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .post h4{
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 12px;
+        margin-bottom: 16px;
+    }
+    .post li{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .post ul{
+        margin-bottom: 24px;
+        margin-top: 16px;
+    }
+    .post .mb-60{
+        margin-bottom: 24px;
+
+    }
+    .post-banner{
+        height: 248px;
+        padding: 24px;
+        max-width: 348px;
+    }
+    .advice{
+        font-size: 10px;
+        line-height: 13px;
+        padding: 10px 12px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .post-tag{
+        font-size: 10px;
+        line-height: 13px;
+        height: 30px;
+        border-radius: 8px;
+        padding: 8px 12px;
+    }
+    .blog-post-title{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 0;
+        max-width: 287px;
+    }
+    .blog-text{
+        display: none;
+    }
+    .blog-post{
+        padding: 24px;
+        border-radius: 16px;
+        height: 320px;
+        width: 100%;
+    }
+    .blog .col-12{
+        padding: 0;
+    }
+    .search-tabs {
+        overflow: auto;
+        padding-left: 52px;
+        justify-content: flex-start !important;
+    }
+    .blog .section-title{
+        max-width: 348px;
+        margin: 0 auto;
+    }
+    .search-form{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .blog-list{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .blog{
+        padding-bottom: 60px;
+    }
+    .search-tabs::-webkit-scrollbar {
+        display: none;
+    }
+    .numerology{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .numerology .col-12{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 482px){
+    header .navbar{
+        max-width: 348px;
+    }
+    .post .col-12{
+        padding: 0;
+    }
+    .prognoz .card-text{
+        font-size: 8px;
+        line-height: 10px;
+        min-height: auto;
+    }
+    .read-more{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .prognoz .card-img-top{
+        width: 60px;
+        margin-bottom: 6px;
+    }
+    .prognoz .card{
+        min-height: 202px;
+    }
+    .read-more svg{
+        width: 12px;
+        height: 12px;
+    }
+    .card-title{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 2px;
+    }
+    .choose-date .section-title{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .banner p{
+        max-width: 268px;
+    }
+    .footer-top .container{
+        padding: 0;
+    }
+    footer .btn-primary{
+        height: 32px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .navbar-brand{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    body{
+        background: url('../images/bg-mobile.png') no-repeat;
+    }
+}

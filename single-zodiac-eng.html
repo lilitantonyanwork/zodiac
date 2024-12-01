@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zodiac</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+<body class="no-background">
+<header>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container p-0">
+      <a class="navbar-brand" href="#">zodiac
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M5.28564 14.663L10.5158 14.7126C10.5783 14.7138 10.6396 14.7309 10.6938 14.7622C10.748 14.7935 10.7934 14.838 10.8258 14.8916L13.4838 19.3962C13.5246 19.4644 13.5866 19.5174 13.6602 19.5472C13.7339 19.577 13.8152 19.582 13.892 19.5614C13.9687 19.5408 14.0367 19.4958 14.0856 19.4332C14.1345 19.3706 14.1616 19.2937 14.1629 19.2143L14.2125 13.9841C14.2137 13.9216 14.2308 13.8603 14.2621 13.8061C14.2934 13.7519 14.3379 13.7065 14.3915 13.6741L18.8961 11.0161C18.9643 10.9753 19.0173 10.9133 19.0471 10.8397C19.0769 10.766 19.0819 10.6847 19.0613 10.6079C19.0407 10.5312 18.9957 10.4632 18.9331 10.4143C18.8705 10.3654 18.7936 10.3383 18.7142 10.337L13.484 10.2874C13.4215 10.2862 13.3602 10.2691 13.306 10.2378C13.2518 10.2065 13.2064 10.162 13.174 10.1084L10.516 5.60376C10.4752 5.53561 10.4132 5.48263 10.3396 5.45282C10.2659 5.42302 10.1845 5.41802 10.1078 5.43859C10.031 5.45915 9.96309 5.50416 9.9142 5.5668C9.86531 5.62944 9.83816 5.7063 9.83685 5.78574L9.78725 11.0159C9.78606 11.0784 9.76901 11.1397 9.73771 11.1939C9.70641 11.2481 9.66187 11.2935 9.60827 11.3259L5.10366 13.9839C5.03551 14.0247 4.98252 14.0867 4.95272 14.1603C4.92292 14.234 4.91792 14.3154 4.93849 14.3921C4.95905 14.4689 5.00406 14.5368 5.0667 14.5857C5.12933 14.6346 5.20619 14.6617 5.28564 14.663Z" fill="#050505" stroke="#050505" stroke-width="0.125" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav  mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Прогнозы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Совместимость</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Нумерология</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Блог</a>
+          </li>
+
+        </ul>
+
+      </div>
+      <a href="" class="btn btn-primary">Подписаться</a>
+
+    </div>
+  </nav>
+</header>
+<main>
+
+  <section class="prognoz">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/oven.svg" alt="oven">
+          <h1 class="section-title">Aries</h1>
+          <div class="zodiac-content">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-today-tab" data-bs-toggle="pill" data-bs-target="#pills-today" type="button" role="tab" aria-controls="pills-today" aria-selected="true">Today</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="false">Week</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false">Month</button>
+              </li>
+           <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false">Year</button>
+              </li>
+
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-today" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <p>For Aries, the first half of the week will be tense, with possible difficulties in relations with the authorities and the law. If you drive a car, the likelihood of traffic violations and fines increases. This is not the best time for litigation, and there may also be problems with studies and travel.
+                </p>
+                <p>
+                  The situation will improve significantly in the second half of the week. The set plans will be carried out with confidence. You can feel intuitive foresight, and many ideas will turn out to be correct. Those who know how to avoid unnecessary attention and use the secret support of influential people will be especially successful.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="pills-week" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <p>For Aries, the first half of the week will be tense, with possible difficulties in relations with the authorities and the law. If you drive a car, the likelihood of traffic violations and fines increases. This is not the best time for litigation, and there may also be problems with studies and travel.
+                </p>
+                <p>
+                  The situation will improve significantly in the second half of the week. The set plans will be carried out with confidence. You can feel intuitive foresight, and many ideas will turn out to be correct. Those who know how to avoid unnecessary attention and use the secret support of influential people will be especially successful.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <p>For Aries, the first half of the week will be tense, with possible difficulties in relations with the authorities and the law. If you drive a car, the likelihood of traffic violations and fines increases. This is not the best time for litigation, and there may also be problems with studies and travel.
+                </p>
+                <p>
+                  The situation will improve significantly in the second half of the week. The set plans will be carried out with confidence. You can feel intuitive foresight, and many ideas will turn out to be correct. Those who know how to avoid unnecessary attention and use the secret support of influential people will be especially successful.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <p>For Aries, the first half of the week will be tense, with possible difficulties in relations with the authorities and the law. If you drive a car, the likelihood of traffic violations and fines increases. This is not the best time for litigation, and there may also be problems with studies and travel.
+                </p>
+                <p>
+                  The situation will improve significantly in the second half of the week. The set plans will be carried out with confidence. You can feel intuitive foresight, and many ideas will turn out to be correct. Those who know how to avoid unnecessary attention and use the secret support of influential people will be especially successful.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="action-btns d-flex justify-content-between">
+          <a href="" class="btn btn-outline-primary">Previous sign</a>
+          <a href="" class="btn btn-outline-primary">Next sign</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="choose-date">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="section-title">Введите вашу дату рождения</h1>
+          <div class="choose-date-form">
+            <form action=""     >
+              <div class="input-group mb-3">
+                <input type="number" placeholder="Число">
+                <select class="form-select" aria-label="Месяц">
+                  <option selected>Месяц</option>
+                  <option value="1">Январь</option>
+                  <option value="2">Февраль</option>
+                  <option value="3">Март</option>
+                  <option value="4">Апрель</option>
+                  <option value="5">Май</option>
+                  <option value="6">Июнь</option>
+                  <option value="7">Июль</option>
+                  <option value="8">Август</option>
+                  <option value="9">Сентябрь</option>
+                  <option value="10">Октябрь</option>
+                  <option value="11">Ноябрь</option>
+                  <option value="12">Декабрь</option>
+                </select>
+                <input type="number" placeholder="Год">
+              </div>
+              <div class="input-group mb-3">
+                <button class="btn btn-primary">Узнать свой прогноз</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<footer>
+  <div class="footer-top d-flex">
+    <div class="container d-flex align-items-center justify-content-between">
+      <div class="footer-logo">
+        <a class="navbar-brand" href="#">zodiac
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+            <path d="M5.28564 14.663L10.5158 14.7126C10.5783 14.7138 10.6396 14.7309 10.6938 14.7622C10.748 14.7935 10.7934 14.838 10.8258 14.8916L13.4838 19.3962C13.5246 19.4644 13.5866 19.5174 13.6602 19.5472C13.7339 19.577 13.8152 19.582 13.892 19.5614C13.9687 19.5408 14.0367 19.4958 14.0856 19.4332C14.1345 19.3706 14.1616 19.2937 14.1629 19.2143L14.2125 13.9841C14.2137 13.9216 14.2308 13.8603 14.2621 13.8061C14.2934 13.7519 14.3379 13.7065 14.3915 13.6741L18.8961 11.0161C18.9643 10.9753 19.0173 10.9133 19.0471 10.8397C19.0769 10.766 19.0819 10.6847 19.0613 10.6079C19.0407 10.5312 18.9957 10.4632 18.9331 10.4143C18.8705 10.3654 18.7936 10.3383 18.7142 10.337L13.484 10.2874C13.4215 10.2862 13.3602 10.2691 13.306 10.2378C13.2518 10.2065 13.2064 10.162 13.174 10.1084L10.516 5.60376C10.4752 5.53561 10.4132 5.48263 10.3396 5.45282C10.2659 5.42302 10.1845 5.41802 10.1078 5.43859C10.031 5.45915 9.96309 5.50416 9.9142 5.5668C9.86531 5.62944 9.83816 5.7063 9.83685 5.78574L9.78725 11.0159C9.78606 11.0784 9.76901 11.1397 9.73771 11.1939C9.70641 11.2481 9.66187 11.2935 9.60827 11.3259L5.10366 13.9839C5.03551 14.0247 4.98252 14.0867 4.95272 14.1603C4.92292 14.234 4.91792 14.3154 4.93849 14.3921C4.95905 14.4689 5.00406 14.5368 5.0667 14.5857C5.12933 14.6346 5.20619 14.6617 5.28564 14.663Z" fill="#050505" stroke="#050505" stroke-width="0.125" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="footer-menu">
+        <ul class="">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Прогнозы</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Совместимость</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Нумерология</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Блог</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="footer-button">
+        <a href="" class="btn btn-primary">Подписаться</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="dropdown d-flex align-items-center justify-content-center">
+        <button class="btn btn-select dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Светлая тема
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#" data-value="dark">Темная тема</a></li>
+          <li><a class="dropdown-item selected" href="#" data-value="light">Светлая тема</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="copyright">
+    <p class="text-center">© 2024. Права защищены</p>
+  </div>
+
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
