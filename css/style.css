@@ -30,6 +30,10 @@ body{
     color: #fff;
     border: 2px solid #050505;
 }
+.btn-primary:hover{
+    background: #050505;
+    opacity: 0.9;
+}
 .btn:hover svg path{
     stroke: #ffffff;
 }
@@ -81,12 +85,16 @@ header .btn-primary, footer .btn-primary{
     font-weight: 400;
     padding: 0!important;
 }
+
 .navbar-nav{
     gap: 42px;
 }
 header .nav-link.active{
     font-weight: 600;
     color: #050505;
+}
+.nav-link:hover{
+    color: #070707;
 }
 .section-title{
     font-size: 60px;
@@ -1029,3 +1037,4 @@ input[type=number] {
 .dark .compatibility-info img, .dark .prognoz img{
     filter: invert(1);
 }
+
