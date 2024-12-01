@@ -9,7 +9,7 @@ $(function (){
     })
 })
 
-const images = ['https://i.sstatic.net/2RAv2.png', 'https://i.sstatic.net/Tq5DA.png', 'https://i.sstatic.net/3KRtW.png', 'https://i.sstatic.net/iLyVi.png',
+const images = ['../images/oven.svg', 'https://i.sstatic.net/Tq5DA.png', 'https://i.sstatic.net/3KRtW.png', 'https://i.sstatic.net/iLyVi.png',
     'https://i.sstatic.net/2RAv2.png', 'https://i.sstatic.net/Tq5DA.png', 'https://i.sstatic.net/3KRtW.png', 'https://i.sstatic.net/iLyVi.png',
     'https://i.sstatic.net/2RAv2.png', 'https://i.sstatic.net/Tq5DA.png', 'https://i.sstatic.net/3KRtW.png', 'https://i.sstatic.net/iLyVi.png']
     ;
