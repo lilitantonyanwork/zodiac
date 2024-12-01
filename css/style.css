@@ -1023,6 +1023,9 @@ input[type=number] {
     color: #050505;
     border-color: #050505 ;
 }
+.dark .banner .btn-outline-primary:hover{
+    color: #fff;
+}
 .dark .compatibility-info img, .dark .prognoz img{
     filter: invert(1);
 }
