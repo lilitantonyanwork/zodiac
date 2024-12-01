@@ -412,6 +412,85 @@
     .subscribe-title{
         display: none;
     }
+    .compatibility-form .dropdown-toggle{
+        height: 65px;
+        padding: 18px 20px;
+        width: 271px;
+    }
+    .compatibility-form{
+        margin-top: 36px;
+        margin-bottom: 60px;
+    }
+    .compatibility-form .dropdown-menu.show{
+        width: 271px;
+    }
+    .compatibility-form .input-group:first-child{
+        margin-bottom: 36px;
+    }
+    .compatibility-form .btn-primary{
+        height: 65px;
+        padding: 18px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .compatibility p{
+        max-width: 602px;
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 18px;
+    }
+    .compatibility hr{
+        max-width: 650px;
+    }
+    .chart-title{
+        margin-top: 42px;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    .chart{
+        max-width: 780px;
+    }
+    .compatibility-info h2{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 24px;
+    }
+    .compatibility-info p{
+        font-size: 18px;
+        line-height: 24px;
+        max-width: 650px;
+    }
+    .compatibility-info img{
+        margin-top: 42px;
+        margin-bottom: 42px;
+        max-width: 784px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 100%;
+    }
+    .compatibility-info .advice{
+        margin-top: 24px;
+        margin-bottom: 54px;
+        max-width: 650px;
+        text-align: justify ;
+    }
+    .social-title{
+        font-size: 36px;
+        line-height: 43px;
+        margin-bottom: 0;
+    }
+    .socials img{
+        margin-top: 36px;
+        margin-bottom: 0;
+    }
+    .socials{
+        gap: 16px;
+    }
+    .prognoz-home{
+        margin-bottom: 42px;
+    }
+
 }
 @media screen and (max-width: 990px) {
     header .btn-primary{
@@ -753,8 +832,102 @@
     .accordion{
         margin-bottom: 0;
     }
+    .compatibility .section-title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 24px;
+    }
+    .compatibility-form{
+        margin-top: 24px;
+        flex-direction: column;
+        margin-bottom: 42px;
+    }
+    .compatibility-form .input-group:first-child{
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 24px;
+    }
+    .compatibility-form .dropdown-toggle{
+        width: 209px;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 12px;
+        height: 48px;
+    }
+    .compatibility-form .dropdown-menu.show{
+        width: 209px;
+        min-width: unset;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        top: 35px!important;
+    }
+    .compatibility-form .btn-primary{
+        height: 54px;
+        font-size: 18px;
+        line-height: 21px;
+        padding: 16px;
+    }
+
+    .compatibility-info .col-12{
+        padding: 0;
+    }
+    .compatibility-info{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 @media screen and (max-width: 600px){
+    .compatibility-info h2{
+        font-size: 18px;
+        line-height: 21px;
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+    .compatibility-info p{
+        font-size: 10px;
+        line-height: 13px;
+        text-align: justify!important;
+        margin-bottom: 10px;
+    }
+    .compatibility-info img{
+        margin-top: 24px;
+        margin-bottom: 36px;
+    }
+    .compatibility-info .advice{
+        margin-bottom: 36px;
+        margin-top: 12px;
+    }
+    .compatibility-info{
+        padding-bottom: 60px;
+    }
+    .socials img{
+        margin-bottom: 0;
+    }
+    .compatibility p{
+        max-width: 300px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .chart-title{
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .chart{
+        max-width: 350px;
+    }
+    .compatibility{
+        padding-bottom: 60px;
+        padding-top: 41px;
+    }
+    .compatibility .chart-title{
+        font-size: 24px;
+        line-height: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .compatibility hr{
+        max-width: 348px;
+    }
     header{
         padding-left: 40px;
         padding-right: 40px;
@@ -782,8 +955,11 @@
         max-width: 300px;
         text-align: justify;
     }
-    .prognoz{
+    .prognoz:not(.prognoz-home){
         margin-bottom: 60px;
+    }
+    .prognoz-home{
+        margin-bottom: 42px;
     }
     .prognoz img {
         width: 148px;

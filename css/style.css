@@ -13,7 +13,7 @@ body{
 }
 .btn-primary{
     background: #050505;
-    border-radius: 8px;
+    border-radius: 12px;
     color: #fff;
     height: 77px;
     padding: 24px;
@@ -40,7 +40,7 @@ body{
     font-weight: 600;
     line-height: 28px;
     font-size: 24px;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 22px 24px;
     box-sizing: border-box;
 
@@ -119,6 +119,9 @@ header .nav-link.active{
     max-width: 1084px;
     margin: 0 auto;
 }
+.prognoz.prognoz-home{
+    margin-bottom: 60px;
+}
 .prognoz p{
     font-size: 24px;
     line-height: 28px;
@@ -126,6 +129,9 @@ header .nav-link.active{
     max-width: 796px;
     margin: 0 auto 42px;
     text-align: center;
+}
+.prognoz p.text-justify{
+    text-align: justify;
 }
 .prognoz .card{
     border: 2px solid #99999952;
@@ -505,6 +511,7 @@ hr{
     max-width: 900px;
     margin: 0 auto 24px;
 
+        text-align: justify;
 }
 
 .compatibility-form{
@@ -543,9 +550,11 @@ hr{
     font-weight: 400;
     max-width: 790px;
     margin: 0 auto 24px;
+    text-align: justify;
 }
 .compatibility-info  img{
     margin: 60px auto;
+    max-width: 100%;
 }
 .compatibility-info .advice{
     max-width: 792px;
@@ -864,4 +873,152 @@ input[type=number] {
 }
 .numerology-form .dropdown-menu{
     width: 195px;
+}
+.dark {
+    background: url('../images/bg.png') #050505;
+}
+.dark{
+    color: #fff;
+}
+.dark .navbar-brand{
+    color: #DFDFDF;
+}
+.dark .navbar-brand svg path{
+    fill:#DFDFDF ;
+    stroke:#DFDFDF ;
+}
+
+.dark .nav-link{
+    color: #DFDFDF ;
+}
+.dark header .btn-primary{
+    background: #fff;
+    color: #050505;
+}
+.dark .banner {
+    background: #EEEEEE;
+}
+.dark .section-title{
+    color: #fff;
+}
+.dark .prognoz .card{
+    background: #050505;
+}
+.dark .card-title{
+    color: #fff;
+}
+.dark .prognoz .card-text{
+    color: #fff;
+}
+.dark .input-group input, .dark .subscribe-input, .dark .search-input input{
+    background: #050505;
+    border: 2px solid #FFFFFF;
+    color: #fff;
+}
+.dark .btn-primary{
+    background: #fff;
+    color: #050505;
+}
+.dark .btn-select, .dark .btn-select:hover{
+    background: #050505;
+    border: 2px solid #FFFFFF
+}
+.dark .dropdown-toggle::after{
+    background: url('../images/arrow-down-white.svg');
+}
+.dark footer{
+    background: #050505;
+}
+.dark .footer-menu .nav-link{
+    color: #fff;
+}
+.dark footer .navbar-brand{
+    color: #fff;
+}
+.dark footer .navbar-brand svg path{
+    fill:#DFDFDF ;
+    stroke:#DFDFDF ;
+}
+.dark footer .btn-select, .dark footer .btn-select:hover{
+    background: #fff;
+    border: 2px solid #FFFFFF
+}
+.dark .banner .section-title, .dark .not-found .section-title,
+.dark .not-found p, .dark .post-tag, .dark .blog-post-title, .dark .blog-text{
+    color: #050505;
+}
+.dark .banner .btn-primary{
+    background: #050505;
+    color: #fff;
+}
+.dark footer .dropdown-toggle::after{
+     background: url('../images/arrow-down.svg');
+ }
+.dark .post-tag{
+    color: #fff;
+    border-color: #fff;
+}
+.dark .btn-outline-primary{
+    color: #fff;
+    border-color: #fff;
+}
+.dark.no-background{
+    background: #050505;
+}
+.dark footer{
+    border-color:  #FFFFFF3D;
+}
+.dark footer .dropdown-menu.show{
+    border-width: 2px;
+    border-color: #fff!important;
+}
+.dark .btn-back svg path{
+    stroke: #fff;
+}
+.dark .search-input:before{
+    background: url('../images/search-white.svg');
+}
+.dark .advice{
+    border-color: #fff;
+}
+.dark header .nav-link.active, .dark .numerology h2, .dark .numerology h4,
+.dark .accordion-body p, .dark .numerology .accordion-button{
+    color: #fff;
+}
+.dark .numerology h2 svg path{
+    stroke: #fff;
+
+}
+.dark .dropdown-toggle.selected{
+    color: #fff;
+}
+.dark .accordion-item{
+    background: transparent;
+}
+
+.dark .accordion-button::after{
+    background: url("../images/arrow-down-white.svg") no-repeat!important;
+}
+.dark .zodiac-content .nav{
+    border-color: #fff;
+}
+.dark .nav-pills .nav-link.active, .dark .nav-pills .show>.nav-link{
+    background: #fff;
+    color: #050505;
+    font-weight: 400;
+}
+.dark .btn-gray{
+    color: #999999;
+}
+.prognoz .prognoz-white{
+    display: none;
+}
+.dark .prognoz .prognoz-white{
+    display: block;
+}
+.dark .prognoz .prognoz-black{
+    display: none;
+}
+.dark .compatibility-info img, .dark .prognoz img{
+    filter: invert(1);
 }
