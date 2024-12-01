@@ -1019,6 +1019,10 @@ input[type=number] {
 .dark .prognoz .prognoz-black{
     display: none;
 }
+.dark .banner .btn-outline-primary{
+    color: #050505;
+    border-color: #050505 ;
+}
 .dark .compatibility-info img, .dark .prognoz img{
     filter: invert(1);
 }
